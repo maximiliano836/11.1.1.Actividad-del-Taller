@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>11.1.1. Actividad del Taller</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>¿Eres un Gato?</h1>
+      <div class="captcha-area">
+        <div class="captcha-img">
+          <img
+            src="https://media.istockphoto.com/id/1169375471/es/vector/fondo-de-patr%C3%B3n-abstracto-monocromo-en-blanco-y-negro.jpg?s=612x612&w=0&k=20&c=23UQdDJy5maBURYlti0cl_SGq6_roSh0EIyoLpYAesM="
+          />
+          <span class="captcha" id="captcha"></span>
+        </div>
+        <button class="recarga" id="recarga"></button>
+      </div>
+      <form class="input">
+        <input
+          id="input"
+          type="text"
+          placeholder="Escribir Captcha"
+          maxlength="6"
+          spellcheck="false"
+          required
+        />
+        <button class="check" id="check">Chequear</button>
+      </form>
+      <div class="status" id="status"></div>
+    </div>
+
+    <div class="imagen" id="imagen"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
