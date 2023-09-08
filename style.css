@@ -121,5 +121,6 @@ body {
 .imagen{
     margin: 2rem;
     border-radius: 1.5rem;
+    min-width: 15rem;
     max-width: 20rem;
 }
